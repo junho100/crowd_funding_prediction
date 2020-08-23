@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>art</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>comics</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>crafts</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dance</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>design</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>fashion</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>film &amp; video</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>food</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>games</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>jounalism</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>music</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>photography</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>publishing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>technology</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>theater</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Comic Books</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Graphic Novels</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Webcomics</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Anthologies</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Comics</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Events</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>440</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>예측하기</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>761</width>
+      <height>261</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>메인 카테고리</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>세부 카테고리</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>450</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>펀딩기간</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>310</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1분기 (1월~3월)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2분기 (4월~6월)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3분기 (7월~9월)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4분기 (10월~12월)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>290</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>펀딩 시기</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>370</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Gulim'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>350</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>스타트업 이름</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>440</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>이곳에 예측결과가 출력됩니다</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>activated(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_main_cat()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>112</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>364</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>activated(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>update_sub_cat()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>153</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>235</x>
+     <y>317</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_2</sender>
+   <signal>activated(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>update_sub_cat()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>95</x>
+     <y>415</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>189</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_3</sender>
+   <signal>activated(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_quater()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>366</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>actionTriggered(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_duration()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>483</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_name()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>484</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>626</x>
+     <y>404</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>predict_and_get_result()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>716</x>
+     <y>492</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>698</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>update_sub_cat()</slot>
+  <slot>set_main_cat()</slot>
+  <slot>set_sub_cat()</slot>
+  <slot>set_quater()</slot>
+  <slot>set_duration()</slot>
+  <slot>set_name()</slot>
+  <slot>predict_and_get_result()</slot>
+ </slots>
+</ui>
