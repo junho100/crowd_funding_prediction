@@ -1,7 +1,7 @@
 # crowd_funding_prediction
 machine learning based funding prediction model
 
-> AI-JAM-Korea 2020 출품작 (본선진출) <br>
+> 20.08.23 AI-JAM-Korea 2020 출품작 (본선진출) <br>
 > https://aijam-korea.com/
 
 ## 요약
